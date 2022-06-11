@@ -11,6 +11,7 @@ suite("MessagesController - Show warning message", () => {
     const updateSectionStub = sinon.stub();
 
     const globalState = {
+        keys: sinon.stub(),
         get: getSectionStub,
         update: updateSectionStub,
     };

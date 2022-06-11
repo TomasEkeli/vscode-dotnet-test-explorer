@@ -23,7 +23,18 @@
     "problemMatcher": "$tsc-watch",
     "tasks": [
         {
+            "label": "yarn",
+            "type": "shell",
+            "command": "yarn",
+            "args": ["install"],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+        },
+        {
             "label": "npm",
+            "dependsOn": ["yarn"],
             "type": "shell",
             "command": "npm",
             "args": [
