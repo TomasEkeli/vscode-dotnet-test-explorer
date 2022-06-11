@@ -61,5 +61,6 @@
 		"github-cli": "latest",
 		"desktop-lite": "latest",
 		"homebrew": "latest"
-	}
+	},
+	"postCreateCommand": "sh .devcontainer/post_create.sh"
 }
