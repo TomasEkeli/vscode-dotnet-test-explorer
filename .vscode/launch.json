@@ -9,7 +9,7 @@
             "runtimeExecutable": "${execPath}",
             "args": [
                 "${workspaceRoot}/test/xunittests",
-                "--extensionDevelopmentPath=${workspaceRoot}" 
+                "--extensionDevelopmentPath=${workspaceRoot}"
             ],
             "stopOnEntry": false,
             "sourceMaps": true,
@@ -23,13 +23,13 @@
             "runtimeExecutable": "${execPath}",
             "args": [
                 "${workspaceRoot}/test/nunit",
-                "--extensionDevelopmentPath=${workspaceRoot}" 
+                "--extensionDevelopmentPath=${workspaceRoot}"
             ],
             "stopOnEntry": false,
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/out/src/**/*.js" ],
             "preLaunchTask": "npm"
-        },     
+        },
         {
             "name": "Launch Extension (nunit .net 5)",
             "type": "extensionHost",
@@ -37,13 +37,13 @@
             "runtimeExecutable": "${execPath}",
             "args": [
                 "${workspaceRoot}/test/nunitnet5",
-                "--extensionDevelopmentPath=${workspaceRoot}" 
+                "--extensionDevelopmentPath=${workspaceRoot}"
             ],
             "stopOnEntry": false,
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/out/src/**/*.js" ],
             "preLaunchTask": "npm"
-        },      
+        },
         {
             "name": "Launch Extension (mstest)",
             "type": "extensionHost",
@@ -51,13 +51,13 @@
             "runtimeExecutable": "${execPath}",
             "args": [
                 "${workspaceRoot}/test/mstest",
-                "--extensionDevelopmentPath=${workspaceRoot}" 
+                "--extensionDevelopmentPath=${workspaceRoot}"
             ],
             "stopOnEntry": false,
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/out/src/**/*.js" ],
             "preLaunchTask": "npm"
-        },      
+        },
         {
             "name": "Launch Extension (fsharp xunit)",
             "type": "extensionHost",
@@ -65,7 +65,7 @@
             "runtimeExecutable": "${execPath}",
             "args": [
                 "${workspaceRoot}/test/fsxunittests",
-                "--extensionDevelopmentPath=${workspaceRoot}" 
+                "--extensionDevelopmentPath=${workspaceRoot}"
             ],
             "stopOnEntry": false,
             "sourceMaps": true,
@@ -79,13 +79,13 @@
             "runtimeExecutable": "${execPath}",
             "args": [
                 "${workspaceRoot}/test",
-                "--extensionDevelopmentPath=${workspaceRoot}", 
+                "--extensionDevelopmentPath=${workspaceRoot}",
             ],
             "stopOnEntry": false,
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/out/test/**/*.js" ],
             "preLaunchTask": "npm"
-        },     
+        },
         {
             "name": "Launch Extension (multiple workspaces)",
             "type": "extensionHost",
@@ -97,13 +97,13 @@
                 "${workspaceRoot}/test/fsxunittests",
                 "${workspaceRoot}/test/mstest",
                 "${workspaceRoot}/test/.vscode",
-                "--extensionDevelopmentPath=${workspaceRoot}", 
+                "--extensionDevelopmentPath=${workspaceRoot}",
             ],
             "stopOnEntry": false,
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/out/test/**/*.js" ],
             "preLaunchTask": "npm"
-        },          
+        },
         {
             "name": "Launch Tests",
             "type": "extensionHost",
@@ -111,8 +111,8 @@
             "runtimeExecutable": "${execPath}",
             "args": [
                 "${workspaceRoot}/test/xunit",
-                "--extensionDevelopmentPath=${workspaceRoot}", 
-                "--extensionTestsPath=${workspaceRoot}/out/test" 
+                "--extensionDevelopmentPath=${workspaceRoot}",
+                "--extensionTestsPath=${workspaceRoot}/out/test"
             ],
             "stopOnEntry": false,
             "sourceMaps": true,

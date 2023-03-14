@@ -35,6 +35,43 @@
             "isBackground": true,
             "problemMatcher": "$tsc-watch",
             "group": "build"
+        },
+        {
+            "label": "build mstest",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "test/mstest/MSTestTests.csproj"
+            ]
+        },
+        {
+            "label": "build nunit",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "test/nunit/NunitTests.csproj"
+            ]
+        },
+        {
+            "label": "build nunitnet5",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "test/nunitNet5/NunitTests.csproj"
+            ]
+        },
+        {
+            "label": "build xunit",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "test/xunittests/XugnitTests.csproj"
+            ]
         }
+
     ]
 }
